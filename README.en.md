@@ -1,7 +1,8 @@
 # My Userscripts
-[![Russian version](https://img.shields.io/badge/lang-RU-blue)](README.md)
+[![RU](https://img.shields.io/badge/lang-RU-lightgrey)](README.md) [![EN](https://img.shields.io/badge/lang-EN-blue)](#)
 
-A set of my custom-written userscripts. The list will be updated. You can also find these scripts on [GreasyFork](https://greasyfork.org/).
+A set of my custom-written userscripts. The list will be updated.  
+You can also find these scripts on [GreasyFork](https://greasyfork.org/).
 
 ## 📜 Script List
 

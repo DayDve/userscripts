@@ -1,5 +1,5 @@
 # Notion Invoices Bulk Downloader
-[![English version](https://img.shields.io/badge/lang-EN-blue)](README.en.md) | [< Назад к списку](../../README.md)
+[![RU](https://img.shields.io/badge/lang-RU-blue)](#) [![EN](https://img.shields.io/badge/lang-EN-lightgrey)](README.en.md) [![Back](https://img.shields.io/badge/Back-List-black)](../../README.md)
 
 [![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](notion_invoices.user.js?raw=1)
 
