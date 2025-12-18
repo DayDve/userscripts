@@ -6,6 +6,12 @@
 Bulk delete notifications on LinkedIn.  
 Adds checkboxes to select multiple notifications for removal.
 
+### Screenshots
+| Before | After |
+| :--- | :--- |
+| ![Before](../../screenshots/linkedin_before.png) | ![After](../../screenshots/linkedin_after.png) |
+
+
 ### Features
 * Adds selection checkboxes to the left of notifications.
 * Delete selected or all visible notifications with a single button.
