@@ -11,6 +11,12 @@
 
 Массовое скачивание инвойсов и квитанций из Notion Billing одним ZIP-архивом.
 
+### 💼 [LinkedIn: Массовое удаление уведомлений](src/linkedin_bulk_delete/README.md)
+[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/linkedin_bulk_delete/linkedin_bulk_delete.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-RU-blue)](src/linkedin_bulk_delete/README.md)
+
+Linkedin не дает удалить все уведомления разом. Этот скрипт исправляет это досадное недоразумение
+
+
 ### 🏦 LT VIISP -> Swedbank Auto
 [![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/lt_viisp/lt_viisp.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-RU-blue)](src/lt_viisp/README.md)
 
