@@ -6,12 +6,14 @@
 ## 📜 Список скриптов
 
 ### 📝 Notion Invoices Bulk Downloader
-Массовое скачивание инвойсов и квитанций из Notion Billing одним ZIP-архивом.
 [![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/notion_invoices/notion_invoices.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-RU-blue)](src/notion_invoices/README.md)
 
+Массовое скачивание инвойсов и квитанций из Notion Billing одним ZIP-архивом.
+
 ### 🏦 LT VIISP -> Swedbank Auto
-Автоматизация авторизации на госпорталах Литвы. Избавляет от необходимости прокликивать кучу страниц выбора банка.
 [![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/lt_viisp/lt_viisp.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-RU-blue)](src/lt_viisp/README.md)
+
+Автоматизация авторизации на госпорталах Литвы. Избавляет от необходимости прокликивать кучу страниц выбора банка.
 
 ---
 

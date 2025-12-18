@@ -6,12 +6,14 @@ A set of my custom-written userscripts. The list will be updated. You can also f
 ## 📜 Script List
 
 ### 📝 Notion Invoices Bulk Downloader
-Bulk download for Notion invoices and receipts as a ZIP archive.
 [![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/notion_invoices/notion_invoices.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-EN-blue)](src/notion_invoices/README.en.md)
 
+Bulk download for Notion invoices and receipts as a ZIP archive.
+
 ### 🏦 LT VIISP -> Swedbank Auto
-Automates authentication on Lithuanian government portals. Removes the need to click through multiple bank selection pages.
 [![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/lt_viisp/lt_viisp.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-EN-blue)](src/lt_viisp/README.en.md)
+
+Automates authentication on Lithuanian government portals. Removes the need to click through multiple bank selection pages.
 
 ---
 
