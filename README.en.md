@@ -1,26 +1,23 @@
 # My Userscripts
-[Russian version](README.md)
+[![Russian version](https://img.shields.io/badge/lang-RU-blue)](README.md)
 
-A collection of my custom userscripts. New scripts will be added as they are developed.
+A set of my custom-written userscripts. The list will be updated. You can also find these scripts on [GreasyFork](https://greasyfork.org/).
 
 ## 📜 Script List
 
-### 📝 [Notion Invoices Bulk Downloader](src/notion_invoices/README.md)
-Bulk download invoices and receipts from Notion Billing as a single ZIP archive.
-- [Install](src/notion_invoices/notion_invoices.user.js?raw=1) | [Details and screenshots](src/notion_invoices/README.md)
+### 📝 Notion Invoices Bulk Downloader
+Bulk download for Notion invoices and receipts as a ZIP archive.
+[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/notion_invoices/notion_invoices.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-EN-blue)](src/notion_invoices/README.en.md)
 
-### 🏦 [LT VIISP -> Swedbank Auto](src/lt_viisp/README.md)
-Automates authentication on Lithuanian government portals.
-- [Install](src/lt_viisp/lt_viisp.user.js?raw=1) | [Details and screenshots](src/lt_viisp/README.md)
+### 🏦 LT VIISP -> Swedbank Auto
+Automates authentication on Lithuanian government portals. Removes the need to click through multiple bank selection pages.
+[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/lt_viisp/lt_viisp.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-EN-blue)](src/lt_viisp/README.en.md)
 
 ---
 
-## ⚙️ Installation
-Requires a userscript manager (e.g., [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/)).
+## ⚙️ Requirements
+Requires a userscript manager ([Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/)).
 
 **Android:**
-- Use [Firefox](https://www.mozilla.org/firefox/mobile/) (with a script manager extension installed).
-- Or use [AdGuard](https://adguard.com/) by adding the script URL directly in settings.
-
-## ⚖️ License
-MIT
+- [Firefox](https://www.mozilla.org/firefox/mobile/) + userscript manager.
+- [AdGuard](https://adguard.com/) (via "Extensions" section).

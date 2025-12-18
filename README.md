@@ -1,23 +1,23 @@
 # My Userscripts
-[English version](README.en.md)
+[![English version](https://img.shields.io/badge/lang-EN-blue)](README.en.md)
 
-Набор моих самописных юзерскриптов. Список пополняется по мере необходимости.
+Набор моих самописных юзерскриптов. Список пополняется по мере необходимости. Скрипты также можно найти на [GreasyFork](https://greasyfork.org/).
 
-## Список скриптов
+## 📜 Список скриптов
 
-### [Notion Invoices Bulk Downloader](src/notion_invoices/README.md)
-Массовое скачивание инвойсов из Notion Billing.
-* [Установить](src/notion_invoices/notion_invoices.user.js?raw=1) | [Описание и скриншоты](src/notion_invoices/README.md)
+### 📝 Notion Invoices Bulk Downloader
+Массовое скачивание инвойсов и квитанций из Notion Billing одним ZIP-архивом.
+[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/notion_invoices/notion_invoices.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-RU-blue)](src/notion_invoices/README.md)
 
-### [LT VIISP -> Swedbank Auto](src/lt_viisp/README.md)
-Автоматизация авторизации на литовских госпорталах.
-* [Установить](src/lt_viisp/lt_viisp.user.js?raw=1) | [Описание и скриншоты](src/lt_viisp/README.md)
-*
+### 🏦 LT VIISP -> Swedbank Auto
+Автоматизация авторизации на госпорталах Литвы. Избавляет от необходимости прокликивать кучу страниц выбора банка.
+[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/lt_viisp/lt_viisp.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-RU-blue)](src/lt_viisp/README.md)
+
 ---
 
-## Установка
-Требуется менеджер скриптов ([Tampermonkey](https://www.tampermonkey.net/) / [Violentmonkey](https://violentmonkey.github.io/)).
+## ⚙️ Требования
+Для работы требуется менеджер скриптов ([Tampermonkey](https://www.tampermonkey.net/) или [Violentmonkey](https://violentmonkey.github.io/)).
 
 **Android:**
-* Через [Firefox](https://www.mozilla.org/firefox/mobile/) с расширением менеджера скриптов.
-* Напрямую через [AdGuard](https://adguard.com/).
+- [Firefox](https://www.mozilla.org/firefox/mobile/) + менеджер скриптов.
+- [AdGuard](https://adguard.com/) (через раздел «Расширения»).
