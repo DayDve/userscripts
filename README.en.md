@@ -1,39 +1,26 @@
-# Userscripts
+# My Userscripts
 [Russian version](README.md)
 
-My custom-written userscripts. The list will be updated.
+A collection of my custom userscripts. New scripts will be added as they are developed.
 
-## Scripts
+## 📜 Script List
 
-### 1. Notion Invoices Bulk Downloader
-[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/notion_invoices.user.js)
+### 📝 [Notion Invoices Bulk Downloader](src/notion_invoices/README.md)
+Bulk download invoices and receipts from Notion Billing as a single ZIP archive.
+- [Install](src/notion_invoices/notion_invoices.user.js?raw=1) | [Details and screenshots](src/notion_invoices/README.md)
 
-Bulk download for Notion invoices and receipts.
-
-| Before | After |
-| :--- | :--- |
-| ![Before](screenshots/notion_before.png) | ![After](screenshots/notion_after.png) |
-
-- **What it does:** Adds checkboxes and a "Download selected" button to export files as a single ZIP archive.
-
-### 2. LT VIISP -> Swedbank Auto
-[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/lt_viisp.user.js)
-
+### 🏦 [LT VIISP -> Swedbank Auto](src/lt_viisp/README.md)
 Automates authentication on Lithuanian government portals.
-
-| Before | After |
-| :--- | :--- |
-| ![Before](screenshots/viisp_before.png) | ![After](screenshots/viisp_after.png) |
-
-- **What it does:** Adds a direct Swedbank auth button to skip redundant steps.
-- **Supported:** [Sodra](https://www.sodra.lt), [Migris](https://www.migracija.lt), [Esveikata](https://www.esveikata.lt).
+- [Install](src/lt_viisp/lt_viisp.user.js?raw=1) | [Details and screenshots](src/lt_viisp/README.md)
 
 ---
 
-## Installation
-1. Install a userscript manager: [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/).
-2. Install the script via the **Install** button above or find it on [GreasyFork](https://greasyfork.org/).
+## ⚙️ Installation
+Requires a userscript manager (e.g., [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/)).
 
 **Android:**
-- Use [Firefox](https://www.mozilla.org/firefox/mobile/) (install a script manager extension first).
-- Use [AdGuard](https://adguard.com/) (add the script URL directly).
+- Use [Firefox](https://www.mozilla.org/firefox/mobile/) (with a script manager extension installed).
+- Or use [AdGuard](https://adguard.com/) by adding the script URL directly in settings.
+
+## ⚖️ License
+MIT
