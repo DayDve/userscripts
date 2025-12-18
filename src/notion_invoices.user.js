@@ -1,16 +1,20 @@
 // ==UserScript==
 // @name         Notion Invoices Bulk Downloader
+// @name:ru      Notion Invoices Bulk Downloader
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @icon         data:image/gif;base64,R0lGODlhQwBRAOMHAP8AAFxGsKJPkItx1/9bWsC23P+ysf///////////////////////////////////yH5BAEKAAgALAAAAABDAFEAAAT+EMlJq7046827HODgjSQZnmKprhPqsnDnzmlsU3Re36zu7zzPbwgMZohEowbJLBqbUGcsSpWqqtgpdrvaekOl77crpmrLyVJgjUP7KmzOet52vybzQCcfb9lBFHx6coKDfmWBhXuFfQhicIyLayCCdWZ4jI0ZeQUHBZWWSImZmhicB6iffBWio6SGGqeoqIqHOZCvdIRrnbOekbYorrmlF7KzqrXBw4IEAsqxc72+A6SsuJkE2qAbx8h81asWxAHa2s+63dK+s3ye4XmYxAMG5ufF4+vsB/AB3/EIcglwFmAAqnr2YG3SlypVHl/JBgk8J8CXPW27Akzz1G4OO4D+E80Z8IXQnDpe1GbB+6hLYElt7F4SWIhSZa9kLOMwGrim4oGXIy3aM8WQnz9aa3JKLDTQmc+fF4MevJivJqpqN5P6AsnUnlSo9mJSlaeRWsGOSiXsjCpWJMmxAYuGU3m0o86uFwl8lbl3aFyrRsv+SvuXT9O8et+6FTqz8MZwBmkRXotY29cDbGdhdGxWK7/JeCtbVrx4szd4N0ELOiwaJmkCqEzPGTANXuR9XFe31rtYs2vZeSL322h3qe7WYEf7jt24sDQ+xJHePS6aeVjmzLEx2ncgt+HdUy9ix9ycmTfpxr8jt25u/Oaqgm4XVxu6MuPfsMlHE4S7ZX3Er7nnVx5R0G3lH3WVfXUdfh7E14t3ebCW4CwlCUiCgxDOIWF11ll4oTXOabibV2B5qAYwlI0oEn7ZsVBLLX6pmB+DMYjDjV8SjGgiDN5V4BcAOa5H4w2wKBTkZgAkeWReOypxwY9JAomAfeS16CQGUCo5JYBV6nclliYhEKWUVA755ZONjbnkgjMOeKaPEqi5JZNdvvdmBnKWmV89d2IgZZ5cutYnnmNqqScqgxIKKJ12JmpBoWQG6qajE0AaqXgHULqBpRNgqqkGlhoa5qegQurjpKRSwGmqJRTKqgpyvkpClLKuIGWtjkYAADs=
-// @description  Adds checkboxes to the billing history for bulk downloading invoices and receipts as a single ZIP file.
+// @version      1.0.1
+// @description  Adds bulk download for Notion invoices and receipts.
+// @description:ru Массовое скачивание инвойсов и квитанций в Notion.
 // @author       DayDve
+// @license      MIT
+// @icon         data:image/gif;base64,R0lGODlhQwBRAOMHAP8AAFxGsKJPkItx1/9bWsC23P+ysf///////////////////////////////////yH5BAEKAAgALAAAAABDAFEAAAT+EMlJq7046827HODgjSQZnmKprhPqsnDnzmlsU3Re36zu7zzPbwgMZohEowbJLBqbUGcsSpWqqtgpdrvaekOl77crpmrLyVJgjUP7KmzOet52vybzQCcfb9lBFHx6coKDfmWBhXuFfQhicIyLayCCdWZ4jI0ZeQUHBZWWSImZmhicB6iffBWio6SGGqeoqIqHOZCvdIRrnbOekbYorrmlF7KzqrXBw4IEAsqxc72+A6SsuJkE2qAbx8h81asWxAHa2s+63dK+s3ye4XmYxAMG5ufF4+vsB/AB3/EIcglwFmAAqnr2YG3SlypVHl/JBgk8J8CXPW27Akzz1G4OO4D+E80Z8IXQnDpe1GbB+6hLYElt7F4SWIhSZa9kLOMwGrim4oGXIy3aM8WQnz9aa3JKLDTQmc+fF4MevJivJqpqN5P6AsnUnlSo9mJSlaeRWsGOSiXsjCpWJMmxAYuGU3m0o86uFwl8lbl3aFyrRsv+SvuXT9O8et+6FTqz8MZwBmkRXotY29cDbGdhdGxWK7/JeCtbVrx4szd4N0ELOiwaJmkCqEzPGTANXuR9XFe31rtYs2vZeSL322h3qe7WYEf7jt24sDQ+xJHePS6aeVjmzLEx2ncgt+HdUy9ix9ycmTfpxr8jt25u/Oaqgm4XVxu6MuPfsMlHE4S7ZX3Er7nnVx5R0G3lH3WVfXUdfh7E14t3ebCW4CwlCUiCgxDOIWF11ll4oTXOabibV2B5qAYwlI0oEn7ZsVBLLX6pmB+DMYjDjV8SjGgiDN5V4BcAOa5H4w2wKBTkZgAkeWReOypxwY9JAomAfeS16CQGUCo5JYBV6nclliYhEKWUVA755ZONjbnkgjMOeKaPEqi5JZNdvvdmBnKWmV89d2IgZZ5cutYnnmNqqScqgxIKKJ12JmpBoWQG6qajE0AaqXgHULqBpRNgqqkGlhoa5qegQurjpKRSwGmqJRTKqgpyvkpClLKuIGWtjkYAADs=
 // @match        https://www.notion.so/*
 // @connect      stripe.com
 // @connect      amazonaws.com
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
 // @run-at       document-start
+// @keywords     notion, invoices, download, pdf
 // ==/UserScript==
 
 (function() {
