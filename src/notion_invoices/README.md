@@ -8,7 +8,7 @@
 ### Скриншоты
 | До (Before) | После (After) |
 | :--- | :--- |
-| ![Before](../../screenshots/notion_before.png) | ![After](../../screenshots/notion_after.png) |
+| ![Before](https://github.com/DayDve/userscripts/blob/master/screenshots/notion_before.png?raw=true) | ![After](https://github.com/DayDve/userscripts/blob/master/screenshots/notion_after.png?raw=true) |
 
 ### Функционал
 * Добавляет чекбоксы выбора в таблицу истории платежей.

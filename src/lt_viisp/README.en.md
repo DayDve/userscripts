@@ -8,7 +8,7 @@ Automates authentication on Lithuanian government portals. Removes the need to c
 ### Screenshots
 | Before | After |
 | :--- | :--- |
-| ![Before](../../screenshots/viisp_before.png) | ![After](../../screenshots/viisp_after.png) |
+| ![Before](https://github.com/DayDve/userscripts/blob/master/screenshots/viisp_before.png?raw=true) | ![After](https://github.com/DayDve/userscripts/blob/master/screenshots/viisp_after.png?raw=true) |
 
 ### Features
 - Adds a direct "Auth via SB" button to skip multiple selection pages.

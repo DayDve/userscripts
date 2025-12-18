@@ -8,7 +8,7 @@ Bulk download for Notion invoices and receipts as a ZIP archive.
 ### Screenshots
 | Before | After |
 | :--- | :--- |
-| ![Before](../../screenshots/notion_before.png) | ![After](../../screenshots/notion_after.png) |
+| ![Before](https://github.com/DayDve/userscripts/blob/master/screenshots/notion_before.png?raw=true) | ![After](https://github.com/DayDve/userscripts/blob/master/screenshots/notion_after.png?raw=true) |
 
 ### Features
 - Adds selection checkboxes to the billing history table.

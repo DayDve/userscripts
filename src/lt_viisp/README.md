@@ -8,7 +8,7 @@
 ### Скриншоты
 | До (Before) | После (After) |
 | :--- | :--- |
-| ![Before](../../screenshots/viisp_before.png) | ![After](../../screenshots/viisp_after.png) |
+| ![Before](https://github.com/DayDve/userscripts/blob/master/screenshots/viisp_before.png?raw=true) | ![After](https://github.com/DayDve/userscripts/blob/master/screenshots/viisp_after.png?raw=true) |
 
 ### Функционал
 * Добавляет кнопку прямой авторизации "Auth via SB".
