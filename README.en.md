@@ -20,6 +20,11 @@ LinkedIn doesn't allow deleting all notifications at once. This script fixes thi
 
 Automates authentication on Lithuanian government portals. Removes the need to click through multiple bank selection pages.
 
+### 🔍 VLK Insured Search
+[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/vlk_insured_search/vlk_insured_search.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-EN-blue)](src/vlk_insured_search/README.en.md)
+
+Adds a single Asmens kodas field to the search form on the VLK website.
+
 ---
 
 ## ⚙️ Requirements

@@ -1,5 +1,5 @@
 # LT VIISP -> Swedbank Auto
-[![RU](https://img.shields.io/badge/lang-RU-lightgrey)](README.md) [![EN](https://img.shields.io/badge/lang-EN-blue)](#) [![Back](https://img.shields.io/badge/Back-List-black)](../../README.en.md)
+[![RU](https://img.shields.io/badge/lang-RU-lightgrey)](README.md) [![EN](https://img.shields.io/badge/lang-EN-blue)](#) [![LT](https://img.shields.io/badge/lang-LT-lightgrey)](README.lt.md) [![Back](https://img.shields.io/badge/Back-List-black)](../../README.en.md)
 
 [![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](lt_viisp.user.js?raw=1)
 

@@ -22,6 +22,11 @@ Linkedin не дает удалить все уведомления разом. 
 
 Автоматизация авторизации на госпорталах Литвы. Избавляет от необходимости прокликивать кучу страниц выбора банка.
 
+### 🔍 VLK Insured Search
+[![Install](https://img.shields.io/badge/Install-Direct-brightgreen)](src/vlk_insured_search/vlk_insured_search.user.js?raw=1) [![Details](https://img.shields.io/badge/Details-RU-blue)](src/vlk_insured_search/README.md)
+
+Добавляет единое поле Asmens kodas в форму поиска на сайте VLK.
+
 ---
 
 ## ⚙️ Требования
