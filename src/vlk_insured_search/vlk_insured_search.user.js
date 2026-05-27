@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name         VLK Insured Search
 // @name:ru      VLK Insured Search
+// @name:lt      VLK Insured Search
 // @namespace    http://tampermonkey.net/
 // @version      2.4
 // @description  Adds a single Asmens kodas field to the search form.
 // @description:ru Добавляет единое поле Asmens kodas в форму поиска.
+// @description:lt Prideda vieną Asmens kodas laukelį į paieškos formą.
 // @author       DayDve
 // @license      MIT
 // @icon         https://dpsdr.vlk.lt/img/icons/favicon-32x32.png
